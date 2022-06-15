@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fcf4f4;
+    font-family: sans-serif;
+  }
+.header{
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    height: 62px;
+    position: relative;
+    bottom: 12px;
+}
+  .header ul{
+    display: flex;
+  }
+  .galeria,
+  .portfolio,
+  .contacto
+  {
+    list-style: none;
+    font-size: 1.5rem;
+    margin-right: 48px;
+    position: relative;
+    top: 21px;
+    font-weight: 500;
+    color: rgb(26, 26, 26);
+    font-family: 'Open Sans', sans-serif;
+  }
+  .galeria a,
+  .portfolio a,
+  .contacto a{
+     text-decoration: none;
+  }
+  a:link{
+    color: rgb(26, 26, 26);
+  }
+  .galeria:hover,
+  .portfolio:hover,
+  .contacto:hover
+  {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .name{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2.6rem;
+    list-style: none;
+    margin-right: 138px;
+    position: relative;
+    top: 11px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .contact-info{
+    border: rgb(255, 215, 215) solid 1px;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 252px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .contact-info h1{
+    font-weight: 100;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+p{
+    font-size: 1.4rem;
+    text-align: ri;
+}
+img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
