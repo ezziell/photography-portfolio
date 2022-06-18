@@ -29,13 +29,13 @@ html {
     max-width: 2000px;
     min-width: 1900px;
     height: fit-content;
-    top: 478px;
+    top: 1078px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
   #galeria img {
-    width: 384px;
+    width: 380px;
     height: 400px;
     object-fit: cover;
     cursor: pointer;
@@ -73,7 +73,7 @@ html {
     border-radius: 4px;
     padding: 2px;
     max-width: 800px;
-    min-height: 500px;
+    min-height: 400px;
     object-fit: cover;
     position: relative;
     display: flex;
